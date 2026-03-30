@@ -1,0 +1,29 @@
+{
+  "extends": "./node_modules/@docusaurus/tsconfig/tsconfig.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@docusaurus/types": ["./node_modules/@docusaurus/types"],
+      "@docusaurus/preset-classic": [
+        "./node_modules/@docusaurus/preset-classic"
+      ],
+      "@docusaurus/plugin-content-docs": [
+        "./node_modules/@docusaurus/plugin-content-docs"
+      ],
+      "@docusaurus/plugin-content-blog": [
+        "./node_modules/@docusaurus/plugin-content-blog"
+      ],
+      "@docusaurus/plugin-content-pages": [
+        "./node_modules/@docusaurus/plugin-content-pages"
+      ],
+      "@docusaurus/core": ["./node_modules/@docusaurus/core"],
+      "prism-react-renderer": ["./node_modules/prism-react-renderer"]
+    }
+  },
+  "include": [
+    "docusaurus.config.ts",
+    "sidebars.ts",
+    "src/**/*.ts",
+    "src/**/*.tsx"
+  ]
+}

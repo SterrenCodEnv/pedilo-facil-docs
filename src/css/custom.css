@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:wght@300;400;500;600;700;800;900&display=swap");
+
+/**
+ * PediloFácil — Stakeholders Docs styles
+ * Brand colors extraídos del frontend de PediloFácil
+ *
+ * Primary:   #13075a  (morado Grido)
+ * Secondary: #aa0000  (rojo Grido)
+ * Font:      Figtree  (misma que el panel de administración)
+ */
+
+:root {
+  /* Docusaurus primary = morado/violeta Grido */
+  --ifm-color-primary: #3b1fa8;
+  --ifm-color-primary-dark: #341c97;
+  --ifm-color-primary-darker: #2f198e;
+  --ifm-color-primary-darkest: #230f75;
+  --ifm-color-primary-light: #4e2ec0;
+  --ifm-color-primary-lighter: #5835c9;
+  --ifm-color-primary-lightest: #6f50d2;
+
+  --ifm-font-family-base: "Figtree", system-ui, sans-serif;
+  --ifm-heading-font-family: "Figtree", system-ui, sans-serif;
+  --ifm-font-weight-bold: 700;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(19, 7, 90, 0.08);
+
+  /* Navbar con color del header del panel */
+  --ifm-navbar-background-color: #13075a;
+  --ifm-navbar-link-color: #ffffff;
+  --ifm-navbar-link-hover-color: #d4c5ff;
+}
+
+[data-theme="dark"] {
+  --ifm-color-primary: #9b87e0;
+  --ifm-color-primary-dark: #8570d8;
+  --ifm-color-primary-darker: #7764d4;
+  --ifm-color-primary-darkest: #5a45c6;
+  --ifm-color-primary-light: #b19fe8;
+  --ifm-color-primary-lighter: #bfb0ec;
+  --ifm-color-primary-lightest: #d9d0f4;
+  --docusaurus-highlighted-code-line-bg: rgba(155, 135, 224, 0.15);
+}
+
+/* ── Tipografía ─────────────────────────────────────── */
+body,
+input,
+textarea,
+select,
+button {
+  font-family: "Figtree", system-ui, sans-serif;
+}
+
+/* ── Navbar: logo en fondo oscuro ───────────────────── */
+.navbar__title {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 1.1rem;
+  letter-spacing: -0.01em;
+}
+
+.navbar__logo img {
+  height: 32px;
+  width: auto;
+}
+
+.navbar__link--active,
+.navbar__link:hover {
+  color: #f0e6ff !important;
+}
+
+/* Hamburger icon en mobile */
+.navbar__toggle svg {
+  color: #ffffff;
+}
+
+/* ── Sidebar ────────────────────────────────────────── */
+.menu__link--active {
+  font-weight: 600;
+}
+
+.menu__caret::before {
+  border-color: #13075a transparent transparent;
+}
+
+/* ── Admonitions ────────────────────────────────────── */
+.theme-admonition {
+  border-radius: 8px;
+}
+
+/* ── Footer ─────────────────────────────────────────── */
+.footer,
+.footer__copyright,
+.footer__link-item,
+.footer a {
+  color: #ffffff !important;
+}
+
+/* ── Tablas ─────────────────────────────────────────── */
+table th {
+  background-color: #3b1fa8;
+  color: #ffffff;
+}
+
+[data-theme="dark"] table th {
+  background-color: #4e2ec0;
+}
+
+/* ── Status badges (estados de órdenes) ─────────────── */
+.badge--pending {
+  background: #f59e0b;
+  color: #fff;
+}
+.badge--confirmed {
+  background: #13075a;
+  color: #fff;
+}
+.badge--preparing {
+  background: #7c3aed;
+  color: #fff;
+}
+.badge--ready {
+  background: #059669;
+  color: #fff;
+}
+.badge--completed {
+  background: #374151;
+  color: #fff;
+}
+.badge--cancelled {
+  background: #aa0000;
+  color: #fff;
+}
