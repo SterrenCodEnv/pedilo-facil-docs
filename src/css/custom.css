@@ -74,13 +74,77 @@ button {
   color: #ffffff;
 }
 
-/* ── Sidebar ────────────────────────────────────────── */
+/* ── Color mode toggle (sol/luna) visible en navbar oscura ── */
+button[class*="colorModeToggle"] svg,
+.navbar__items button svg {
+  fill: #ffffff;
+  color: #ffffff;
+}
+
+/* ── Mobile Navbar Sidebar ──────────────────────────── */
+/* El sidebar móvil hereda el fondo oscuro del navbar y necesita texto blanco */
+.navbar-sidebar {
+  --ifm-navbar-background-color: #13075a;
+  background-color: #13075a;
+}
+
+.navbar-sidebar__brand {
+  background-color: #13075a;
+  border-bottom-color: rgba(255, 255, 255, 0.15);
+}
+
+/* Botón "Volver al menú principal" */
+.navbar-sidebar__back {
+  color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.08);
+}
+.navbar-sidebar__back:hover {
+  background-color: rgba(255, 255, 255, 0.15);
+  color: #d4c5ff;
+}
+
+/* Links del menú dentro del sidebar móvil */
+.navbar-sidebar .menu__link,
+.navbar-sidebar .navbar__link {
+  color: #ffffff;
+}
+.navbar-sidebar .menu__link:hover,
+.navbar-sidebar .navbar__link:hover {
+  color: #d4c5ff;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.navbar-sidebar .menu__link--active {
+  color: #d4c5ff;
+  background-color: rgba(255, 255, 255, 0.15);
+}
+
+/* Categorías / labels de sección */
+.navbar-sidebar .menu__list-item-collapsible > .menu__link {
+  color: #ffffff;
+  font-weight: 600;
+}
+.navbar-sidebar .menu__list-item-collapsible > .menu__link:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #d4c5ff;
+}
+
+/* Caret (flecha) de categorías colapsables */
+.navbar-sidebar .menu__caret::before,
+.navbar-sidebar .menu__list-item-collapsible .menu__caret::before {
+  border-color: #ffffff transparent transparent;
+}
+
+/* ── Sidebar (desktop) ──────────────────────────────── */
 .menu__link--active {
   font-weight: 600;
 }
 
 .menu__caret::before {
   border-color: #13075a transparent transparent;
+}
+
+[data-theme="dark"] .menu__caret::before {
+  border-color: #9b87e0 transparent transparent;
 }
 
 /* ── Admonitions ────────────────────────────────────── */
