@@ -113,6 +113,10 @@ El bot presenta el resumen completo del pedido y pregunta al cliente si confirma
 
 Los estados del checkout tienen un tiempo límite de **15 minutos de inactividad**. Si el cliente no responde y la sesión expira, el carrito se mantiene pero el checkout se cancela y el cliente debe reiniciarlo.
 
+## Modificar el carrito durante el checkout
+
+Si el cliente quiere agregar, quitar o cambiar productos **durante** cualquier paso del checkout, puede hacerlo sin cancelar. El bot ejecuta la modificación, actualiza el carrito y el checkout se adapta automáticamente — el cliente sigue donde estaba sin tener que reiniciar el proceso.
+
 ## Cancelar el checkout
 
-Si el cliente quiere modificar el carrito después de haber iniciado el checkout, puede hacerlo. El bot vuelve al estado de exploración con el carrito intacto.
+Si el cliente quiere abandonar el checkout por completo, puede decir "cancelar" o "no quiero". El bot cancela el checkout y vuelve al estado de exploración con el carrito intacto.

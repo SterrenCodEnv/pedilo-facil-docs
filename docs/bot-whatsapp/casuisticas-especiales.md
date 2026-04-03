@@ -40,9 +40,11 @@ Si el bot detecta que el cliente está realizando un reclamo o expresando insati
 
 ---
 
-## El cliente cancela el carrito en medio del checkout
+## El cliente quiere cambiar algo durante el checkout
 
-El cliente puede cancelar el checkout en cualquier momento antes de confirmar. El carrito se mantiene intacto y el cliente puede modificarlo y reiniciar el checkout cuando quiera.
+El cliente puede modificar el carrito en cualquier paso del checkout sin cancelar. Si dice "agregame un bombón" o "sacá la torta", el bot ejecuta el cambio y sigue en el mismo paso del checkout con el total actualizado.
+
+Si el cliente quiere cancelar el checkout por completo, puede hacerlo en cualquier momento antes de confirmar. El carrito se mantiene intacto y puede reiniciar el checkout cuando quiera.
 
 ---
 

@@ -6,7 +6,7 @@ sidebar_position: 1
 
 # ¿Qué es el AI Agent?
 
-E el asistente de inteligencia artificial que atiende a tus clientes por WhatsApp. Funciona las 24 horas, los 7 días de la semana, y puede armar pedidos completos de forma conversacional — sin que el cliente tenga que descargar ninguna app ni ingresar a ningún sitio web.
+Es el asistente de inteligencia artificial que atiende a tus clientes por WhatsApp. Funciona las 24 horas, los 7 días de la semana, y puede armar pedidos completos de forma conversacional — sin que el cliente tenga que descargar ninguna app ni ingresar a ningún sitio web.
 
 ## ¿Qué puede hacer el AI Agent?
 
@@ -29,7 +29,7 @@ E el asistente de inteligencia artificial que atiende a tus clientes por WhatsAp
 
 ## Personalidad del bot
 
-El AI Agent iene una personalidad diseñada para el mercado argentino:
+El AI Agent tiene una personalidad diseñada para el mercado argentino:
 
 - Usa lenguaje rioplatense natural (vos, dale, genial)
 - Es amable, cálido y servicial

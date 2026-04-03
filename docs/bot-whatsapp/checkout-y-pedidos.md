@@ -39,6 +39,8 @@ Ver detalles en [Medios de pago](./medios-de-pago).
 
 El bot presenta el resumen completo (productos, entrega, pago, total con descuentos y envío si aplica) y pregunta al cliente si confirma.
 
+**Flujo rápido**: si el cliente da el método de pago y confirma en el mismo mensaje (ej: "efectivo, dale confirmá"), el bot registra el pago y confirma el pedido de una sola vez, sin preguntas adicionales.
+
 Si el cliente confirma:
 
 1. Se crea el pedido en el sistema con estado **PENDIENTE**
@@ -53,9 +55,15 @@ El número de pedido tiene el formato `{código-franquicia}-{número secuencial 
 
 **Ejemplo**: `GRD-BEL-000023`
 
+## Modificar el carrito durante el checkout
+
+El cliente puede agregar, quitar o cambiar productos en cualquier paso del checkout sin necesidad de cancelar. El bot ejecuta la modificación y el checkout continúa automáticamente — no hace falta reiniciar el proceso.
+
+**Ejemplo**: si durante el paso de pago el cliente dice "agregame un bombón más", el bot busca el producto, lo agrega al carrito y vuelve a preguntar el método de pago con el total actualizado.
+
 ## Cancelar el checkout
 
-Si el cliente quiere modificar el carrito después de haber iniciado el checkout, puede hacerlo. El bot cancela el checkout y vuelve al estado de exploración con el carrito intacto — el cliente puede agregar, quitar productos y luego reiniciar el checkout.
+Si el cliente quiere abandonar el checkout por completo, puede decir "cancelar" o "no quiero". El bot cancela el proceso y vuelve al estado de exploración con el carrito intacto.
 
 ## ¿Qué pasa si el cliente no confirma?
 
