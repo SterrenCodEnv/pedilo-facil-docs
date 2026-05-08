@@ -37,6 +37,16 @@ Ejemplo del mensaje que recibe el cliente:
 > _¡Hola Juan! Tu pedido GRD-000023 está listo. 🍦 Podés pasar a retirar tu pedido por Grido Belgrano. ¡Gracias por tu compra!_
 > :::
 
+:::info Notificación de demora al confirmar (opcional)
+Si tenés activada la **gestión de capacidad**, cuando un pedido pasa a estado **Confirmado**, el sistema envía automáticamente un mensaje con el tiempo estimado de espera si hay cola.
+
+Ejemplo del mensaje:
+
+> _Tu pedido fue confirmado. En este momento tenemos alta demanda — el tiempo estimado de preparación es de aproximadamente **20 minutos**. ¡Gracias por tu paciencia!_
+
+Podés activar, desactivar y configurar los rangos de demora en [Capacidad y Demoras](./capacidad-y-demoras).
+:::
+
 ## Lista de pedidos
 
 La pantalla de pedidos muestra todos los pedidos de tu local en una tabla con:

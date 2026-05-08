@@ -19,6 +19,7 @@ const sidebars: SidebarsConfig = {
         "panel-administracion/promociones",
         "panel-administracion/leads",
         "panel-administracion/analiticas",
+        "panel-administracion/capacidad-y-demoras",
       ],
     },
     {

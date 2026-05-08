@@ -28,14 +28,14 @@ El cliente recibe una notificación automática por WhatsApp
 ## ¿Qué te ofrece como franquiciado?
 
 | Funcionalidad                      | Descripción                                                |
-| ---------------------------------- | ---------------------------------------------------------- |
+| ---------------------------------- | ---------------------------------------------------------- | --- | ------------------------- | ----------------------------------------------------------------------- |
 | **📲 Bot de WhatsApp**             | Tu número de WhatsApp atiende pedidos 24/7 con IA          |
 | **🖥️ Panel de administración web** | Gestionás pedidos, productos, sabores y promociones        |
 | **📊 Analíticas completas**        | Ves ventas, productos más pedidos, horarios pico y más     |
 | **👥 Leads**                       | Capturás potenciales clientes que interactuaron con el bot |
 | **📄 Comprobantes PDF**            | Cada pedido genera un comprobante automáticamente          |
 | **🎯 Promociones automáticas**     | Configurás descuentos que el bot aplica solo               |
-| **📦 Gestión de inventario**       | Controlás stock de productos y sabores                     |
+| **📦 Gestión de inventario**       | Controlás stock de productos y sabores                     |     | **⏱️ Gestión de demoras** | Informás automáticamente el tiempo de espera cuando hay cola de pedidos |
 
 ## Lo esencial a recordar
 
@@ -53,3 +53,4 @@ Vos gestionás todo desde el **panel web**: recibís las órdenes, las procesás
 - **[Bot de WhatsApp](bot-whatsapp/que-es)** — Cómo funciona el bot, qué puede y qué no puede hacer
 - **[Carga de Inventario](inventario/formas-de-carga)** — Cómo cargar productos y sabores
 - **[Comprobantes PDF](comprobantes-pdf)** — Cómo se generan los comprobantes de cada pedido
+- **[Capacidad y Demoras](panel-administracion/capacidad-y-demoras)** — Cómo informar tiempos de espera automáticamente cuando hay cola de pedidos

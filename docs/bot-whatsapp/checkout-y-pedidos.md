@@ -35,6 +35,16 @@ El bot pregunta si el cliente va a pagar en efectivo o con transferencia bancari
 
 Ver detalles en [Medios de pago](./medios-de-pago).
 
+## Aviso de demora estimada
+
+Antes de confirmar, si el local tiene activada la **gestión de capacidad** y en ese momento hay cola de pedidos, el bot muestra un aviso con el tiempo estimado de espera:
+
+> _⏰ En este momento tenemos alta demanda. El tiempo estimado de preparación es de aproximadamente **20 minutos**._
+
+Este aviso es informativo. El cliente puede confirmar de todas formas o cancelar el checkout.
+
+Ver cómo configurar los rangos de demora en [Capacidad y Demoras](../panel-administracion/capacidad-y-demoras).
+
 ## Confirmación final
 
 El bot presenta el resumen completo (productos, entrega, pago, total con descuentos y envío si aplica) y pregunta al cliente si confirma.
