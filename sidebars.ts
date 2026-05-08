@@ -8,6 +8,11 @@ const sidebars: SidebarsConfig = {
       label: "¿Qué es PediloFácil?",
     },
     {
+      type: "doc",
+      id: "planes-de-suscripcion",
+      label: "📋 Planes de Suscripción",
+    },
+    {
       type: "category",
       label: "🖥️ Panel de Administración",
       collapsed: false,

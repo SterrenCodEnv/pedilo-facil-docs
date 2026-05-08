@@ -49,6 +49,7 @@ Vos gestionás todo desde el **panel web**: recibís las órdenes, las procesás
 
 ## Navegá la documentación
 
+- **[Planes de Suscripción](planes-de-suscripcion)** — Qué incluye cada plan (Inicial, Pro, Full) y cómo solicitar un cambio
 - **[Panel de Administración](panel-administracion/dashboard)** — Qué encontrás al ingresar y cómo moverse por el dashboard
 - **[Bot de WhatsApp](bot-whatsapp/que-es)** — Cómo funciona el bot, qué puede y qué no puede hacer
 - **[Carga de Inventario](inventario/formas-de-carga)** — Cómo cargar productos y sabores
