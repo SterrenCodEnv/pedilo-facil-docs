@@ -27,15 +27,16 @@ El cliente recibe una notificación automática por WhatsApp
 
 ## ¿Qué te ofrece como franquiciado?
 
-| Funcionalidad                      | Descripción                                                |
-| ---------------------------------- | ---------------------------------------------------------- | --- | ------------------------- | ----------------------------------------------------------------------- |
-| **📲 Bot de WhatsApp**             | Tu número de WhatsApp atiende pedidos 24/7 con IA          |
-| **🖥️ Panel de administración web** | Gestionás pedidos, productos, sabores y promociones        |
-| **📊 Analíticas completas**        | Ves ventas, productos más pedidos, horarios pico y más     |
-| **👥 Leads**                       | Capturás potenciales clientes que interactuaron con el bot |
-| **📄 Comprobantes PDF**            | Cada pedido genera un comprobante automáticamente          |
-| **🎯 Promociones automáticas**     | Configurás descuentos que el bot aplica solo               |
-| **📦 Gestión de inventario**       | Controlás stock de productos y sabores                     |     | **⏱️ Gestión de demoras** | Informás automáticamente el tiempo de espera cuando hay cola de pedidos |
+| Funcionalidad                      | Descripción                                                             |
+| ---------------------------------- | ----------------------------------------------------------------------- |
+| **📲 Bot de WhatsApp**             | Tu número de WhatsApp atiende pedidos 24/7 con IA                       |
+| **🖥️ Panel de administración web** | Gestionás pedidos, productos, sabores y promociones                     |
+| **📊 Analíticas completas**        | Ves ventas, productos más pedidos, horarios pico y más                  |
+| **👥 Leads**                       | Capturás potenciales clientes que interactuaron con el bot              |
+| **📄 Comprobantes PDF**            | Cada pedido genera un comprobante automáticamente                       |
+| **🎯 Promociones automáticas**     | Configurás descuentos que el bot aplica solo                            |
+| **📦 Gestión de inventario**       | Controlás stock de productos y sabores                                  |
+| **⏱️ Gestión de demoras**          | Informás automáticamente el tiempo de espera cuando hay cola de pedidos |
 
 ## Lo esencial a recordar
 
